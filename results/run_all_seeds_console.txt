@@ -1,0 +1,22 @@
+Total run: 12, perlu dijalankan: 8, sudah selesai: 4
+[1/8] b0_bce_f10_s1 ... selesai 12.5 mnt, val AUPRC 0.5671
+[2/8] b3_asl_f10_s1 ... selesai 19.1 mnt, val AUPRC 0.5580
+[3/8] b6_augment_f10_s1 ... selesai 19.4 mnt, val AUPRC 0.5763
+[4/8] baseline_cnn1d_f10_s1 ... selesai 23.6 mnt, val AUPRC 0.5871
+[5/8] b0_bce_f10_s2 ... selesai 10.4 mnt, val AUPRC 0.5493
+[6/8] b3_asl_f10_s2 ... selesai 12.1 mnt, val AUPRC 0.5450
+[7/8] b6_augment_f10_s2 ... selesai 13.0 mnt, val AUPRC 0.5774
+[8/8] baseline_cnn1d_f10_s2 ... selesai 23.9 mnt, val AUPRC 0.5819
+
+Training selesai dalam 133.9 menit. Gagal: tidak ada
+Tabel: results\tables\perbandingan_f10_s0_summary.csv
+Tabel: results\tables\perbandingan_f10_s1_summary.csv
+Tabel: results\tables\perbandingan_f10_s2_summary.csv
+
+Rata-rata dan simpangan baku antar seed (fold uji 10):
+        config  n_seed  macro_auroc_mean  macro_auroc_std  macro_auprc_mean  macro_auprc_std  rare_auprc_mean  rare_auprc_std  macro_f1_tuned_mean  macro_f1_tuned_std
+baseline_cnn1d       3            0.9172           0.0087            0.5920           0.0108           0.4145          0.0160               0.5488              0.0121
+    b6_augment       3            0.9071           0.0044            0.5725           0.0105           0.4060          0.0084               0.5428              0.0148
+        b0_bce       3            0.9004           0.0065            0.5558           0.0020           0.3949          0.0074               0.5218              0.0093
+        b3_asl       3            0.8917           0.0017            0.5523           0.0020           0.3836          0.0048               0.5268              0.0127
+Tabel: results\tables\perbandingan_f10_antar_seed.csv

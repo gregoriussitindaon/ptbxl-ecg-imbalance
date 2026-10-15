@@ -1,0 +1,3 @@
+# B4: class-balanced (effective number)
+model: resnet1d
+loss: cb

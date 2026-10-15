@@ -1,0 +1,4 @@
+# Tuning: CNN1D dropout 0.5 (BCE)
+model: cnn1d
+loss: bce
+dropout: 0.5

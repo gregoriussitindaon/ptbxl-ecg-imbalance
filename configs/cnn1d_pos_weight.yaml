@@ -1,0 +1,4 @@
+# CNN1D + BCE dengan pos_weight = (neg/pos)^pw_power
+model: cnn1d
+loss: pos_weight
+pw_power: 0.5

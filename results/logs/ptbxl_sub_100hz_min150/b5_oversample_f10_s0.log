@@ -1,0 +1,17 @@
+run: b5_oversample_f10_s0 | cpu | params 497,103 | latih 6064 val 876 uji 895 | kelas 15
+ep 01 loss 0.2793 val AUROC 0.8663 AUPRC 0.4575 (21s)
+ep 02 loss 0.2092 val AUROC 0.8859 AUPRC 0.4990 (25s)
+ep 03 loss 0.1881 val AUROC 0.8977 AUPRC 0.5215 (30s)
+ep 04 loss 0.1701 val AUROC 0.8945 AUPRC 0.5231 (33s)
+ep 05 loss 0.1585 val AUROC 0.8898 AUPRC 0.5259 (16s)
+ep 06 loss 0.1464 val AUROC 0.9065 AUPRC 0.5506 (16s)
+ep 07 loss 0.1284 val AUROC 0.9021 AUPRC 0.5493 (16s)
+ep 08 loss 0.1209 val AUROC 0.8917 AUPRC 0.5407 (14s)
+ep 09 loss 0.1015 val AUROC 0.8998 AUPRC 0.5449 (15s)
+ep 10 loss 0.0878 val AUROC 0.8836 AUPRC 0.5378 (15s)
+ep 11 loss 0.0763 val AUROC 0.8919 AUPRC 0.5402 (15s)
+ep 12 loss 0.0640 val AUROC 0.8972 AUPRC 0.5442 (20s)
+ep 13 loss 0.0547 val AUROC 0.8950 AUPRC 0.5384 (22s)
+ep 14 loss 0.0448 val AUROC 0.8913 AUPRC 0.5403 (23s)
+early stop di epoch 14
+selesai. best epoch 6, val AUPRC 0.5506. Keluaran: results\runs\ptbxl_sub_100hz_min150\b5_oversample_f10_s0

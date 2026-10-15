@@ -1,0 +1,10 @@
+# Pengaturan umum (referensi). Config strategi di bawah menimpa sebagian.
+model: resnet1d
+width: 32
+blocks: 1
+dropout: 0.3
+epochs: 30
+patience: 8
+batch_size: 64
+lr: 0.001
+wd: 0.01

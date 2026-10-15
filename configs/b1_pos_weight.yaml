@@ -1,0 +1,4 @@
+# B1: BCE dengan pos_weight = (neg/pos)^pw_power
+model: resnet1d
+loss: pos_weight
+pw_power: 0.5

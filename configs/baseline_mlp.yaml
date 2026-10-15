@@ -1,0 +1,3 @@
+# Baseline tanpa konvolusi
+model: mlp
+loss: bce

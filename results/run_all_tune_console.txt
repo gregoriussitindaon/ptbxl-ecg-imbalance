@@ -1,0 +1,8 @@
+Total run: 5, perlu dijalankan: 4, sudah selesai: 1
+[1/4] tune_cnn1d_w16_f10_s0 ... selesai 8.5 mnt, val AUPRC 0.5684
+[2/4] tune_cnn1d_w64_f10_s0 ... selesai 56.4 mnt, val AUPRC 0.5984
+[3/4] tune_cnn1d_do05_f10_s0 ... selesai 26.3 mnt, val AUPRC 0.5907
+[4/4] tune_cnn1d_lr3e4_f10_s0 ... selesai 25.6 mnt, val AUPRC 0.5633
+
+Training selesai dalam 116.7 menit. Gagal: tidak ada
+Tabel: results\tables_tune\perbandingan_f10_s0_summary.csv

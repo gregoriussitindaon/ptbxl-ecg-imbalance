@@ -1,0 +1,9 @@
+Kelas jarang (prevalensi < 5%): ['CLBBB', 'CRBBB', 'ISCA', 'IVCD', 'LAO/LAE', 'NST_', '_AVB']
+
+                        run  macro_auroc  macro_auprc  rare_auprc  macro_f1_0.5  macro_f1_tuned  n_test
+      baseline_cnn1d_f10_s2       0.9218       0.6025      0.4280        0.4950          0.5611     895
+    cnn1d_pos_weight_f10_s2       0.9170       0.5975      0.4266        0.5525          0.5695     895
+         cnn1d_focal_f10_s2       0.9188       0.5911      0.4106        0.4799          0.5307     895
+cnn1d_class_balanced_f10_s2       0.9180       0.5854      0.4047        0.4682          0.5407     895
+    cnn1d_oversample_f10_s2       0.9068       0.5866      0.4139        0.4864          0.5733     895
+       cnn1d_augment_f10_s2       0.9182       0.5882      0.4043        0.4868          0.5548     895

@@ -1,0 +1,22 @@
+run: baseline_cnn1d_f8_s0 | cpu | params 193,615 | latih 6374 val 742 uji 719 | kelas 15
+ep 01 loss 0.2254 val AUROC 0.8844 AUPRC 0.4737 (41s)
+ep 02 loss 0.1668 val AUROC 0.9004 AUPRC 0.5313 (41s)
+ep 03 loss 0.1547 val AUROC 0.9155 AUPRC 0.5638 (43s)
+ep 04 loss 0.1456 val AUROC 0.9201 AUPRC 0.5713 (44s)
+ep 05 loss 0.1403 val AUROC 0.9226 AUPRC 0.5883 (45s)
+ep 06 loss 0.1344 val AUROC 0.9201 AUPRC 0.5883 (44s)
+ep 07 loss 0.1308 val AUROC 0.9279 AUPRC 0.6013 (51s)
+ep 08 loss 0.1266 val AUROC 0.9267 AUPRC 0.6084 (46s)
+ep 09 loss 0.1213 val AUROC 0.9286 AUPRC 0.6179 (44s)
+ep 10 loss 0.1194 val AUROC 0.9272 AUPRC 0.6209 (46s)
+ep 11 loss 0.1163 val AUROC 0.9255 AUPRC 0.6239 (42s)
+ep 12 loss 0.1133 val AUROC 0.9271 AUPRC 0.6074 (42s)
+ep 13 loss 0.1097 val AUROC 0.9305 AUPRC 0.6140 (52s)
+ep 14 loss 0.1053 val AUROC 0.9296 AUPRC 0.6234 (45s)
+ep 15 loss 0.1016 val AUROC 0.9280 AUPRC 0.6192 (43s)
+ep 16 loss 0.0974 val AUROC 0.9270 AUPRC 0.6174 (44s)
+ep 17 loss 0.0940 val AUROC 0.9283 AUPRC 0.6232 (55s)
+ep 18 loss 0.0897 val AUROC 0.9275 AUPRC 0.6185 (48s)
+ep 19 loss 0.0879 val AUROC 0.9254 AUPRC 0.6176 (43s)
+early stop di epoch 19
+selesai. best epoch 11, val AUPRC 0.6239. Keluaran: results\runs\ptbxl_sub_100hz_min150\baseline_cnn1d_f8_s0

@@ -1,0 +1,23 @@
+run: b0_bce_f10_s2 | cpu | params 497,103 | latih 6064 val 876 uji 895 | kelas 15
+ep 01 loss 0.2206 val AUROC 0.8463 AUPRC 0.4234 (43s)
+ep 02 loss 0.1672 val AUROC 0.8786 AUPRC 0.4952 (34s)
+ep 03 loss 0.1529 val AUROC 0.8844 AUPRC 0.4949 (29s)
+ep 04 loss 0.1450 val AUROC 0.8874 AUPRC 0.5038 (28s)
+ep 05 loss 0.1363 val AUROC 0.8942 AUPRC 0.5135 (27s)
+ep 06 loss 0.1319 val AUROC 0.9004 AUPRC 0.5279 (28s)
+ep 07 loss 0.1248 val AUROC 0.8945 AUPRC 0.5241 (29s)
+ep 08 loss 0.1198 val AUROC 0.9022 AUPRC 0.5348 (28s)
+ep 09 loss 0.1120 val AUROC 0.9053 AUPRC 0.5352 (29s)
+ep 10 loss 0.1067 val AUROC 0.9084 AUPRC 0.5484 (31s)
+ep 11 loss 0.0985 val AUROC 0.9042 AUPRC 0.5368 (26s)
+ep 12 loss 0.0945 val AUROC 0.9090 AUPRC 0.5493 (32s)
+ep 13 loss 0.0867 val AUROC 0.9082 AUPRC 0.5428 (28s)
+ep 14 loss 0.0749 val AUROC 0.9076 AUPRC 0.5423 (32s)
+ep 15 loss 0.0669 val AUROC 0.8992 AUPRC 0.5360 (28s)
+ep 16 loss 0.0576 val AUROC 0.9072 AUPRC 0.5408 (31s)
+ep 17 loss 0.0473 val AUROC 0.9088 AUPRC 0.5471 (29s)
+ep 18 loss 0.0398 val AUROC 0.9072 AUPRC 0.5444 (27s)
+ep 19 loss 0.0331 val AUROC 0.9047 AUPRC 0.5390 (28s)
+ep 20 loss 0.0275 val AUROC 0.9048 AUPRC 0.5404 (29s)
+early stop di epoch 20
+selesai. best epoch 12, val AUPRC 0.5493. Keluaran: results\runs\ptbxl_sub_100hz_min150\b0_bce_f10_s2

@@ -1,0 +1,20 @@
+run: baseline_mlp_f10_s0 | cpu | params 342,287 | latih 6064 val 876 uji 895 | kelas 15
+ep 01 loss 0.3492 val AUROC 0.5056 AUPRC 0.1135 (1s)
+ep 02 loss 0.2710 val AUROC 0.5282 AUPRC 0.1205 (1s)
+ep 03 loss 0.2518 val AUROC 0.5713 AUPRC 0.1445 (1s)
+ep 04 loss 0.2317 val AUROC 0.6074 AUPRC 0.1674 (1s)
+ep 05 loss 0.2132 val AUROC 0.6273 AUPRC 0.1832 (1s)
+ep 06 loss 0.1997 val AUROC 0.6449 AUPRC 0.1864 (1s)
+ep 07 loss 0.1876 val AUROC 0.6329 AUPRC 0.1894 (1s)
+ep 08 loss 0.1779 val AUROC 0.6538 AUPRC 0.1947 (1s)
+ep 09 loss 0.1668 val AUROC 0.6633 AUPRC 0.1999 (1s)
+ep 10 loss 0.1565 val AUROC 0.6542 AUPRC 0.1965 (1s)
+ep 11 loss 0.1486 val AUROC 0.6620 AUPRC 0.1991 (1s)
+ep 12 loss 0.1446 val AUROC 0.6603 AUPRC 0.1970 (1s)
+ep 13 loss 0.1363 val AUROC 0.6623 AUPRC 0.1907 (1s)
+ep 14 loss 0.1296 val AUROC 0.6601 AUPRC 0.1936 (1s)
+ep 15 loss 0.1220 val AUROC 0.6649 AUPRC 0.1936 (1s)
+ep 16 loss 0.1176 val AUROC 0.6632 AUPRC 0.1950 (1s)
+ep 17 loss 0.1129 val AUROC 0.6539 AUPRC 0.1900 (1s)
+early stop di epoch 17
+selesai. best epoch 9, val AUPRC 0.1999. Keluaran: results\runs\ptbxl_sub_100hz_min150\baseline_mlp_f10_s0

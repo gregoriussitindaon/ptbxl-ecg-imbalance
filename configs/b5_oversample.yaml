@@ -1,0 +1,5 @@
+# B5: oversampling kelas jarang di level rekaman (BCE)
+model: resnet1d
+loss: bce
+sampler: oversample
+os_power: 0.5

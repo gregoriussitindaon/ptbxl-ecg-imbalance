@@ -1,0 +1,5 @@
+# CNN1D + oversampling kelas jarang di level rekaman
+model: cnn1d
+loss: bce
+sampler: oversample
+os_power: 0.5

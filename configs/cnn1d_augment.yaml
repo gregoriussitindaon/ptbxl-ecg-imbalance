@@ -1,0 +1,4 @@
+# CNN1D + augmentasi
+model: cnn1d
+loss: bce
+augment: true

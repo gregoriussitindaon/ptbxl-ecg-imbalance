@@ -1,0 +1,3 @@
+# B3: asymmetric loss
+model: resnet1d
+loss: asl

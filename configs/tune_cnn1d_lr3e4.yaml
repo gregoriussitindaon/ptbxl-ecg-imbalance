@@ -1,0 +1,4 @@
+# Tuning: CNN1D learning rate 3e-4 (BCE)
+model: cnn1d
+loss: bce
+lr: 0.0003

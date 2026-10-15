@@ -1,0 +1,7 @@
+Total run: 30, perlu dijalankan: 9, sudah selesai: 21
+[1/9] cnn1d_augment_f1_s0 ... selesai 20.4 mnt, val AUPRC 0.6003
+[2/9] cnn1d_augment_f2_s0 ... selesai 18.1 mnt, val AUPRC 0.6254
+[3/9] cnn1d_augment_f3_s0 ... selesai 20.4 mnt, val AUPRC 0.6194
+[4/9] cnn1d_augment_f4_s0 ... selesai 21.1 mnt, val AUPRC 0.6222
+[5/9] cnn1d_augment_f5_s0 ... selesai 20.9 mnt, val AUPRC 0.6370
+[6/9] cnn1d_augment_f6_s0 ... 

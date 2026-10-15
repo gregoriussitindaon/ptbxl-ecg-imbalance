@@ -1,0 +1,3 @@
+# B0: BCE tanpa penanganan imbalance
+model: resnet1d
+loss: bce

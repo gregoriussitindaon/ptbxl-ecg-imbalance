@@ -1,0 +1,4 @@
+# Tuning: CNN1D lebar 16 (BCE)
+model: cnn1d
+loss: bce
+width: 16

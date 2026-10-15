@@ -1,0 +1,4 @@
+# B6: augmentasi + BCE
+model: resnet1d
+loss: bce
+augment: true

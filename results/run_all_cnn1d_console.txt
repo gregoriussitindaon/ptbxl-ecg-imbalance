@@ -1,0 +1,31 @@
+Total run: 18, perlu dijalankan: 15, sudah selesai: 3
+[1/15] cnn1d_pos_weight_f10_s0 ... selesai 20.3 mnt, val AUPRC 0.5988
+[2/15] cnn1d_focal_f10_s0 ... selesai 21.5 mnt, val AUPRC 0.5802
+[3/15] cnn1d_class_balanced_f10_s0 ... selesai 27.9 mnt, val AUPRC 0.5920
+[4/15] cnn1d_oversample_f10_s0 ... selesai 18.3 mnt, val AUPRC 0.5759
+[5/15] cnn1d_augment_f10_s0 ... selesai 23.1 mnt, val AUPRC 0.5960
+[6/15] cnn1d_pos_weight_f10_s1 ... selesai 25.1 mnt, val AUPRC 0.5891
+[7/15] cnn1d_focal_f10_s1 ... selesai 23.2 mnt, val AUPRC 0.5860
+[8/15] cnn1d_class_balanced_f10_s1 ... selesai 23.4 mnt, val AUPRC 0.5885
+[9/15] cnn1d_oversample_f10_s1 ... selesai 20.3 mnt, val AUPRC 0.5846
+[10/15] cnn1d_augment_f10_s1 ... selesai 24.8 mnt, val AUPRC 0.5921
+[11/15] cnn1d_pos_weight_f10_s2 ... selesai 24.6 mnt, val AUPRC 0.5903
+[12/15] cnn1d_focal_f10_s2 ... selesai 23.2 mnt, val AUPRC 0.5834
+[13/15] cnn1d_class_balanced_f10_s2 ... selesai 22.7 mnt, val AUPRC 0.5934
+[14/15] cnn1d_oversample_f10_s2 ... selesai 20.6 mnt, val AUPRC 0.5840
+[15/15] cnn1d_augment_f10_s2 ... selesai 19.6 mnt, val AUPRC 0.5868
+
+Training selesai dalam 338.6 menit. Gagal: tidak ada
+Tabel: results\tables\perbandingan_f10_s0_summary.csv
+Tabel: results\tables\perbandingan_f10_s1_summary.csv
+Tabel: results\tables\perbandingan_f10_s2_summary.csv
+
+Rata-rata dan simpangan baku antar seed (fold uji 10):
+              config  n_seed  macro_auroc_mean  macro_auroc_std  macro_auprc_mean  macro_auprc_std  rare_auprc_mean  rare_auprc_std  macro_f1_tuned_mean  macro_f1_tuned_std
+    cnn1d_pos_weight       3            0.9178           0.0013            0.5939           0.0037           0.4259          0.0135               0.5595              0.0132
+cnn1d_class_balanced       3            0.9193           0.0015            0.5937           0.0112           0.4214          0.0266               0.5516              0.0116
+      baseline_cnn1d       3            0.9172           0.0087            0.5920           0.0108           0.4145          0.0160               0.5488              0.0121
+       cnn1d_augment       3            0.9164           0.0016            0.5918           0.0039           0.4121          0.0072               0.5534              0.0070
+         cnn1d_focal       3            0.9175           0.0038            0.5889           0.0022           0.4101          0.0026               0.5410              0.0094
+    cnn1d_oversample       3            0.9097           0.0056            0.5825           0.0140           0.4098          0.0156               0.5594              0.0189
+Tabel: results\tables\perbandingan_f10_antar_seed.csv

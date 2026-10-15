@@ -1,0 +1,3 @@
+# Baseline CNN 1D sederhana
+model: cnn1d
+loss: bce
